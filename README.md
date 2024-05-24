@@ -1,5 +1,5 @@
 AI-Chat Application
-This repository contains a React frontend and a Flask backend for the AI-Chat application. The frontend handles user authentication via Google Sign-In and communicates with the Flask backend, which interacts with Google Generative AI for generating chatbot responses. The responses are saved to a Firebase Realtime Database.
+This repository contains a React frontend and a Flask backend for the AI-Chat application. The frontend handles user authentication via Google Sign-In and communicates with the Flask backend, which interacts with Google Generative AI for generating chatbot responses. The purpose of this application is to bridge the communication gap between people in a country like India where we speak multiple languages.
 
 Prerequisites
 Ensure you have the following installed:
