@@ -1,0 +1,464 @@
+.Main {
+  display: flex;
+  /* Center the content horizontally and vertically */
+  height: 100vh;
+}
+
+.heading {
+  flex: 2;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color:#eac7769d;
+  background-image: url('/public/robo-final-2.png'); /* Path to your image */
+  background-size: 800px 800px;
+  
+  
+
+
+  /* Add any additional styles for the heading section */ /* Prevents any overflow from the video */
+}
+
+.form-section {
+  /* background: url("https://www.codingnepalweb.com/demos/create-glassmorphism-login-form-html-css/hero-bg.jpg"), #000; */
+  background-color: #043745;
+  /* background-image: url('/public/0x0.png');  */
+  flex: 1.5;
+  height: auto;
+  background-size: cover;
+  box-shadow: -18px 0px 70px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+hr {
+  margin: 1rem;
+  width: inherit;
+}
+
+.forgot-pass {
+  color: white;
+  text-align: right;
+  font-size: small;
+  padding: 5px 25px 0px 0px;
+}
+
+.user-input {
+  width: 90%;
+  margin-bottom: 1rem;
+  padding: 1rem 0rem 1rem 0.8rem;
+  border-radius: 50px;
+  backdrop-filter: blur(11px);
+  border: none;
+  opacity: 0.7;
+  box-shadow: 0 4px black;
+
+  transition: all 0.3s ease;
+}
+
+.user-input:focus {
+  outline: none;
+  box-shadow: 2px 12px 6px black;
+  transform: translateY(-10px);
+
+}
+.user-input:hover {
+  outline: none;
+  box-shadow: 2px 12px 6px black;
+  transform: translateY(-10px);
+
+}
+
+.user-pass {
+  margin-top: 1rem;
+  width: 90%;
+  padding: 1rem 0rem 1rem 0.8rem;
+  border-radius: 50px;
+  backdrop-filter: blur(11px);
+  border: none;
+  opacity: 0.7;
+  box-shadow: 0 4px black;
+  transition: all 0.3s ease;
+}
+
+.user-pass:focus {
+  outline: none;
+  box-shadow: 2px 12px 6px black;
+  transform: translateY(-10px);
+}
+.user-pass:hover {
+  outline: none;
+  box-shadow: 0px 10px 4px black;
+  transform: translateY(-10px);
+}
+
+.user-email {
+
+  width: 90%;
+  padding: 1rem 0rem 1rem 0.8rem;
+  border-radius: 50px;
+  backdrop-filter: blur(11px);
+  border: none;
+  opacity: 0.7;
+  box-shadow: 0 4px black;
+  transition: all 0.3s ease;
+}
+.user-email:focus {
+  outline: none;
+  box-shadow: 2px 12px 6px black;
+  transform: translateY(-10px);
+}
+.user-email:hover {
+  outline: none;
+  box-shadow: 0px 10px 4px black;
+  transform: translateY(-10px);
+}
+
+.user-username {
+  margin-top: 1rem;
+  width: 90%;
+  padding: 1rem 0rem 1rem 0.8rem;
+  border-radius: 50px;
+  backdrop-filter: blur(11px);
+  border: none;
+  opacity: 0.7;
+  box-shadow: 0 4px black;
+  transition: all 0.3s ease;
+}
+.user-username:focus {
+  outline: none;
+  box-shadow: 2px 12px 6px black;
+  transform: translateY(-10px);
+}
+.user-username:hover {
+  outline: none;
+  box-shadow: 0px 10px 4px black;
+  transform: translateY(-10px);
+}
+
+.user-newpass {
+  margin-top: 1rem;
+  width: 90%;
+  padding: 1rem 0rem 1rem 0.8rem;
+  border-radius: 50px;
+  backdrop-filter: blur(11px);
+  border: none;
+  opacity: 0.7;
+  box-shadow: 0 4px black;
+  transition: all 0.3s ease;
+}
+.user-newpass:focus {
+  outline: none;
+  box-shadow: 2px 12px 6px black;
+  transform: translateY(-10px);
+}
+.user-newpass:hover {
+  outline: none;
+  box-shadow: 0px 10px 4px black;
+  transform: translateY(-10px);
+}
+
+.user-confirmpass {
+  margin-top: 1rem;
+  width: 90%;
+  padding: 1rem 0rem 1rem 0.8rem;
+  border-radius: 50px;
+  backdrop-filter: blur(11px);
+  border: none;
+  opacity: 0.7;
+  box-shadow: 0 4px black;
+  transition: all 0.3s ease;
+}
+.user-confirmpass:focus {
+  outline: none;
+  box-shadow: 2px 12px 6px black;
+  transform: translateY(-10px);
+}
+.user-confirmpass:hover {
+  outline: none;
+  box-shadow: 0px 10px 4px black;
+  transform: translateY(-10px);
+}
+
+.login-section {
+  flex: 120;
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  margin-top: 60px;
+  place-content: center;
+}
+
+.signup-section {
+  flex: 120;
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  margin-top: 80px;
+  place-content: center;
+}
+
+
+.card {
+  box-shadow: 15px -5px 8px black;
+  background: rgba(255, 255, 255, 0.167);
+  height: 60%;
+  margin-top: 15vh;
+  margin-bottom: 25vh;
+  padding: 10px 20px 70px 20px;
+  opacity: 0.9;
+  z-index: 1;
+  border: 1px solid black;
+  border-radius: 20px;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  perspective: 1000px;
+  width: 60%;
+  cursor: pointer;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform ease-in 0.8s;
+  transform-style: preserve-3d;
+  
+}
+
+.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card-face {
+  
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Ensures the back of the card isn't visible when flipped */
+
+}
+
+.login-face {
+  transform: rotateY(0deg);
+  width: 100%;
+}
+
+.signup-face {
+  transform: rotateY(180deg);
+  width: 100%;
+}
+
+.login-btn button{
+  color: white;
+  font-weight: bolder;
+  background-color:transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 4px;
+  width: 30%;
+  margin-top: 1rem;
+  font-size: large;
+  transition: transform ease-in-out 0.4s;
+}
+
+.login-btn button:hover{
+  background-color: #eac776;
+  transition: transform ease-in-out 0.4s;
+  transform: scale(1.2);
+}
+
+.signup-btn button{
+  color: white;
+  font-weight: bolder;
+  background-color:transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 2px;
+  width: 20%;
+  margin-top: 3rem;
+  margin-left: 2px;
+  font-size: small;
+  transition: transform ease-in-out 0.4s;
+  
+}
+
+.signup-btn button:hover{
+  background-color: #eac776;
+  transition: transform ease-in-out 0.4s;
+  transform: scale(1.2);
+}
+
+.signup-btn{
+  position: sticky;
+  margin-top: 70px;
+  margin-bottom: 0px;
+  color: white;
+  
+}
+.signup-btn span{
+  font-size: small;
+  color: white;
+}
+
+.form-head{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+.login-btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+
+.login-btn-new button{
+  color: white;
+  font-weight: bolder;
+  background-color:transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 4px;
+  width: 30%;
+  margin-top: 1rem;
+  font-size: large;
+  transition: transform ease-in-out 0.4s;
+}
+
+.login-btn-new button:hover{
+  background-color: #eac776;
+  transition: transform ease-in-out 0.4s;
+  transform: scale(1.2);
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-face {
+  transform: rotateY(180deg);
+}
+.hor-line{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.hor-line hr{
+  
+  width: 80%;
+}
+.hor-line span{
+  font-weight: bolder;
+  color: white;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.social-icon {
+  font-size: 24px;
+  color: white; /* Adjust color as needed */
+  margin: 10px 10px;
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  color: #ccc; /* Change as needed */
+}
+
+.social-icons-new {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.social-icon-new {
+  font-size: 24px;
+  color: white; /* Adjust color as needed */
+  margin: 10px 10px;
+  cursor: pointer;
+}
+
+.social-icon-new:hover {
+  color: #ccc; /* Change as needed */
+}
+
+/*Mobile design css*/
+
+@media (max-width: 768px) {
+  .Main {
+    padding: 10px; /* Add some padding to the main container */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading {
+    margin: 10px 0; /* Reduce margin for smaller screens */
+    height: auto; /* Let the height be auto to adjust based on content */
+    text-align: center; /* Center align the text for better appearance */
+  }
+
+  .form-section {
+    width: 100%; /* Utilize the full width */
+    margin: 10px 0; /* Reduce top and bottom margins */
+  }
+
+  .card {
+    margin: 5vh 0; /* Reduce vertical margin to save space */
+    padding: 15px; /* Increase padding for better spacing around elements */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soften shadow on mobile */
+  }
+
+  .login-btn button, .login-btn-new button, .signup-btn button {
+    width: 100%; /* Full width buttons are easier to tap */
+    padding: 12px; /* Increase padding for a larger clickable area */
+    font-size: 16px; /* Increase font size for readability */
+  }
+
+  .user-input, .user-pass, .user-email, .user-username, .user-newpass, .user-confirmpass {
+    width: 100%; /* Adjust input width to take full available space */
+    margin: 8px 0; /* Add some margin to separate inputs visually */
+  }
+
+  .social-icon, .social-icon-new {
+    margin: 3px; /* Minimize margin around icons to fit more in a row */
+    font-size: 24px; /* Increase icon size for easier interaction */
+  }
+
+  .hor-line hr {
+    margin: 20px 0; /* More vertical space around separators to clear sections */
+  }
+
+  .forgot-pass, .signup-btn span {
+    display: block; /* Block display to force new line */
+    margin-top: 10px; /* Add margin on top for clear separation */
+    font-size: 14px; /* Smaller font size to fit without breaking */
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.345bbc2d.css",
+    "main.js": "/static/js/main.c5651203.js",
+    "static/js/453.1965c8d6.chunk.js": "/static/js/453.1965c8d6.chunk.js",
+    "static/media/robo-final-2.png": "/static/media/robo-final-2.b5dbc3183116eb2c94ea.png",
+    "index.html": "/index.html",
+    "main.345bbc2d.css.map": "/static/css/main.345bbc2d.css.map",
+    "main.c5651203.js.map": "/static/js/main.c5651203.js.map",
+    "453.1965c8d6.chunk.js.map": "/static/js/453.1965c8d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.345bbc2d.css",
+    "static/js/main.c5651203.js"
+  ]
+}
